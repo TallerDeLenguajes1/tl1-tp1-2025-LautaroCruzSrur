@@ -1,9 +1,16 @@
-# Ignorar todos los archivos .txt
-*.txt
+# Created by https://www.toptal.com/developers/gitignore/api/executable
+# Edit at https://www.toptal.com/developers/gitignore?templates=executable
 
-# Ignorar archivos ejecutables (.exe en Windows, sin extensión en Linux)
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
 *.exe
-tp1_1  # Si el ejecutable se llama "tp1_1" en Linux/Mac
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
 
-# Ignorar la carpeta .vscode
-.vscode/
+# End of https://www.toptal.com/developers/gitignore/api/executable
