@@ -1,1 +1,9 @@
+# Ignorar todos los archivos .txt
 *.txt
+
+# Ignorar archivos ejecutables (.exe en Windows, sin extensión en Linux)
+*.exe
+tp1_1  # Si el ejecutable se llama "tp1_1" en Linux/Mac
+
+# Ignorar la carpeta .vscode
+.vscode/
