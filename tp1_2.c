@@ -16,6 +16,7 @@ int main(){
     int b = 0;
     scanf("%d %d", &a, &b);
     invertir(a, b);
+    orden(a, b);
 
 
 
@@ -32,4 +33,13 @@ void invertir (int a , int b){
     a = b;
     b = aux;
     printf("El valor de a es %d y el valor de b es %d\n", a, b);
+};
+void orden (int a, int b){
+    if (a > b){
+        printf("El valor de a es mayor que el valor de b\n");
+    } else if (a < b){
+        printf("El valor de b es mayor que el valor de a\n");
+    } else {
+        printf("Los valores son iguales\n");
+    }
 };
