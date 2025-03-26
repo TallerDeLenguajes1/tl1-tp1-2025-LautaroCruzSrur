@@ -23,6 +23,16 @@ Estos archivos pueden ignorarse en Git agregándolos al `.gitignore` con las sig
 
 Esto asegurará que no se suban al repositorio y mantendrá el código limpio.
 
-G) ¿a qué se debe? se debe a que el puntero apunta a la direccion de memorai de la variable y no a su contenido ¿Qué obtiene en el
-punto 4? obtengo la direccion de memoria del puntero ¿Es igual a los anteriores? no  ¿Por qué? porque la direccion de memoria del puntero y la direccion de memoria de la variable ocupan lugares distintos, el puntero solo almacena su direccion de memoria.
+## Punteros en C
+### ¿A qué se debe?
+Se debe a que el puntero almacena la dirección de memoria de la variable, no su contenido.
+
+### ¿Qué obtiene en el punto 4?
+Obtengo la dirección de memoria del puntero.
+
+### ¿Es igual a las anteriores?
+No.
+
+### ¿Por qué?
+Porque la dirección de memoria del puntero y la dirección de memoria de la variable son distintas. El puntero solo almacena la dirección de la variable, pero él mismo tiene su propia ubicación en la memoria.
 
